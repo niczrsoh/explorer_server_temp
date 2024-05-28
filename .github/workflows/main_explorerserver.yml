@@ -66,6 +66,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'ExplorerServer'
-          slot-name: 'Production'
-          package: .
+          slot-name: 'production'
+          package: ./deployment/
           
